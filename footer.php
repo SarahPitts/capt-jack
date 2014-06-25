@@ -5,8 +5,10 @@
  * @since HTML5 Reset 2.0
  */
 ?>
-		<footer id="footer" class="source-org vcard copyright" role="contentinfo">
-			<small>&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></small>
+		<footer class="footer" role="contentinfo">
+      <div id="inner-footer">
+			   <small>Stem To Stern Sailing &copy;<?php echo date("Y"); echo " "; ?></small>
+      </div<
 		</footer>
 
 	</div>

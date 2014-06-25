@@ -132,12 +132,14 @@
 			<div id="inner-header">
 				<div id="logo"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo-main.jpg" /></a></div>
 				<div id="title"><img src="<?php bloginfo('template_directory'); ?>/images/title-main.png" /></div>
+			
+
+				<nav id="nav" role="navigation">
+					<?php wp_nav_menu( array('menu' => 'primary') ); ?>
+				</nav>
+
 			</div>
 		</header>
-
-		<nav id="nav" role="navigation">
-			<?php wp_nav_menu( array('menu' => 'primary') ); ?>
-		</nav>
 
 
 
