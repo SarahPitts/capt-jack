@@ -1,0 +1,32 @@
+body {
+	background: url('images/background-3.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header {
+	
+	background: url('images/background-1.png');
+	height: 418px;
+}
+
+.inner-header {
+	width:1046px;
+	text-align: center; 
+}
+
+	#logo {
+		margin-top: 28px;
+		margin-right: 33px;
+		display: inline-block;
+		float: left;
+	}
+
+	#title {
+		margin-top: 28px;
+		display: inline-block;
+		float: left;
+	}
