@@ -10,9 +10,9 @@ body {
   background: url("images/background-1.png");
   height: 418px; }
 
-.inner-header {
-  width: 1046px;
-  text-align: center; }
+#inner-header {
+  width: 1150px;
+  margin: 0 auto; }
 
 #logo {
   margin-top: 28px;
