@@ -8,15 +8,22 @@ body {
 }
 
 .header {
-	
 	background: url('images/background-1.png');
+	background-repeat:repeat-x;
 	height: 418px;
+	z-index: 1;
 }
 
 #inner-header {
-	width: 1150px;
+	width: 1142px;
     margin: 0 auto;
 }
+
+#flower {
+	z-index: 100;
+	position: absolute;
+	right: 0px;
+	}
 
 	#logo {
 		padding-top: 28px;
@@ -33,10 +40,13 @@ body {
 .footer {
 	background: url('images/background-2.png');
 	height: 239px;
+	background-repeat:repeat-x;
+	margin-top: -15px;
+	z-index: 50;
 }
 
 #inner-footer {
-	width: 1150px;
+	width: 1142px;
     margin: 0 auto;
     padding-top: 84px;
 }
@@ -47,3 +57,27 @@ body {
 	margin-right: 5px;
 	margin-top:30px;
 }
+
+#content {
+	background: url('images/background-4.png');
+	margin: 0 auto;
+	border-radius: 3px;
+	margin-bottom: 1.5em;
+	width: 1142px;
+	margin-top: -235px;
+	z-index: 3;
+	}
+
+.post {
+	width: 1142px; margin: 0 auto;
+	background: url('images/background-4.png');
+	margin-top: -225px;
+	z-index: 4;
+	.content{
+		padding: 15px;
+		}
+	}
+
+.entry-content {}
+.entry-content a {}
+.entry-content a:hover {}

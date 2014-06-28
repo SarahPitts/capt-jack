@@ -10,9 +10,11 @@
 			
 		<article class="post" id="post-<?php the_ID(); ?>">
 
-			<h2><?php the_title(); ?></h2>
+			<img src="<?php bloginfo('template_directory'); ?>/images/slider.jpg" />
 
-			<?php posted_on(); ?>
+			<div class="content">
+
+			<h2><?php the_title(); ?></h2>
 
 			<div class="entry">
 
@@ -24,12 +26,11 @@
 
 			<?php edit_post_link(__('Edit this entry','html5reset'), '<p>', '</p>'); ?>
 
+		</div>
+
 		</article>
-		
-		<?php comments_template(); ?>
 
 		<?php endwhile; endif; ?>
 
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
