@@ -4,35 +4,53 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  width: 100%; }
 
 .header {
   background: url("images/background-1.png");
   background-repeat: repeat-x;
   height: 418px;
+  width: 100%;
   z-index: 1; }
 
 #inner-header {
   width: 1142px;
-  margin: 0 auto; }
-
-#flower {
-  z-index: 100;
-  position: absolute;
-  right: 0px; }
-
-#logo {
-  padding-top: 28px;
-  margin-right: 33px;
-  display: inline-block;
-  float: left; }
-
-#title {
-  padding-top: 28px; }
+  margin: 0 auto;
+  position: relative; }
+  #inner-header #logo {
+    padding-top: 28px;
+    margin-right: 33px;
+    display: inline-block;
+    float: left; }
+  #inner-header #title {
+    padding-top: 28px; }
+  #inner-header #nav a {
+    display: inline;
+    float: left;
+    margin-right: 25px;
+    margin-top: 25px; }
+  #inner-header a {
+    font-family: Ubuntu;
+    color: #352022;
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none;
+    padding-top: -25px; }
+    #inner-header a:hover {
+      color: #d7141a;
+      text-decoration: underline; }
+  #inner-header #flower {
+    z-index: 100;
+    position: absolute;
+    right: 0px;
+    margin-top: 8px;
+    margin-right: -215px; }
 
 .footer {
   background: url("images/background-2.png");
   height: 239px;
+  width: 100%;
   background-repeat: repeat-x;
   margin-top: -15px;
   z-index: 50; }
@@ -41,12 +59,31 @@ body {
   width: 1142px;
   margin: 0 auto;
   padding-top: 84px; }
-
-#nav a {
-  display: inline;
-  float: left;
-  margin-right: 5px;
-  margin-top: 30px; }
+  #inner-footer p {
+    font-family: Ubuntu;
+    color: #352022;
+    font-size: 25px;
+    font-weight: 800; }
+  #inner-footer a {
+    font-family: Ubuntu;
+    color: #352022;
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none;
+    padding-top: -25px;
+    display: inline;
+    float: left;
+    margin-right: 25px; }
+    #inner-footer a:hover {
+      color: #d7141a;
+      text-decoration: underline; }
+  #inner-footer #creator {
+    text-align: right;
+    float: right; }
+    #inner-footer #creator a {
+      display: inline;
+      float: right;
+      margin-right: 0px; }
 
 #content {
   background: url("images/background-4.png");
@@ -64,4 +101,14 @@ body {
   margin-top: -225px;
   z-index: 4; }
   .post .content {
-    padding: 15px; }
+    padding: 20px; }
+    .post .content h1 {
+      font-family: Ubuntu;
+      color: #352022;
+      font-size: 25px;
+      font-weight: 800; }
+    .post .content p {
+      font-family: Ubuntu;
+      color: #352022;
+      font-size: 13px;
+      font-weight: 400; }

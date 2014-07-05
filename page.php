@@ -14,11 +14,12 @@
 
 			<div class="content">
 
-			<h2><?php the_title(); ?></h2>
+			<h1><?php the_title(); ?></h1>
+			<br>
 
 			<div class="entry">
 
-				<?php the_content(); ?>
+				<p><?php the_content(); ?></p>
 
 				<?php wp_link_pages(array('before' => __('Pages: ','html5reset'), 'next_or_number' => 'number')); ?>
 

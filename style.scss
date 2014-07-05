@@ -1,3 +1,7 @@
+$font-stack: Ubuntu;
+$black: #352022;
+$red: #d7141a;
+
 body {
 	background: url('images/background-3.jpg') no-repeat center center; 
   -webkit-background-size: cover;
@@ -5,41 +9,65 @@ body {
   -o-background-size: cover;
   background-size: cover;
   -webkit-font-smoothing: antialiased;
+  width: 100%;
 }
 
 .header {
 	background: url('images/background-1.png');
 	background-repeat:repeat-x;
 	height: 418px;
+	width: 100%;
 	z-index: 1;
 }
 
 #inner-header {
 	width: 1142px;
     margin: 0 auto;
-}
-
-#flower {
-	z-index: 100;
-	position: absolute;
-	right: 0px;
-	}
-
-	#logo {
+    position: relative;
+    #logo {
 		padding-top: 28px;
 		margin-right: 33px;
 		display: inline-block;
 		float: left;
-	}
-
+		}
 	#title {
 		padding-top: 28px;
 
-	}
+		}
+	#nav a{
+		display: inline;
+		float: left;
+		margin-right: 25px;
+		margin-top:25px;
+		}
+    a {
+    	font-family: $font-stack;
+    	color: $black;
+    	font-size: 25px;
+    	font-weight: 800;
+    	text-decoration: none;
+    	padding-top:-25px;
+    	&:hover {
+    		color: $red;
+    		text-decoration: underline;
+    		}
+    	}
+    #flower {
+		z-index: 100;
+		position: absolute;
+		right: 0px;
+		margin-top: 8px;
+		margin-right: -215px;
+		}
+}
+
+
+	
 
 .footer {
 	background: url('images/background-2.png');
 	height: 239px;
+	width: 100%;
 	background-repeat:repeat-x;
 	margin-top: -15px;
 	z-index: 50;
@@ -49,14 +77,39 @@ body {
 	width: 1142px;
     margin: 0 auto;
     padding-top: 84px;
+    p {
+    	font-family: $font-stack;
+    	color: $black;
+    	font-size: 25px;
+    	font-weight: 800;
+    	}
+    a {
+    	font-family: $font-stack;
+    	color: $black;
+    	font-size: 25px;
+    	font-weight: 800;
+    	text-decoration: none;
+    	padding-top:-25px;
+    	display: inline;
+		float: left;
+		margin-right: 25px;
+    	&:hover {
+    		color: $red;
+    		text-decoration: underline;
+    		}
+    	}
+    #creator {
+    	text-align:right;
+    	float: right;
+    	a {
+    		display: inline;
+			float: right;
+			margin-right: 0px;
+    		}
+    	}
 }
 
-#nav a{
-	display: inline;
-	float: left;
-	margin-right: 5px;
-	margin-top:30px;
-}
+
 
 #content {
 	background: url('images/background-4.png');
@@ -74,7 +127,19 @@ body {
 	margin-top: -225px;
 	z-index: 4;
 	.content{
-		padding: 15px;
+		padding: 20px;
+		h1{
+			font-family: $font-stack;
+    		color: $black;
+    		font-size: 25px;
+    		font-weight: 800;
+			}
+		p{
+			font-family: $font-stack;
+    		color: $black;
+    		font-size: 13px;
+    		font-weight: 400;
+			}
 		}
 	}
 

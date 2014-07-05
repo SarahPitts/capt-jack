@@ -7,8 +7,15 @@
 ?>
 		<footer class="footer" role="contentinfo">
       <div id="inner-footer">
-			   <small>Stem To Stern Sailing &copy;<?php echo date("Y"); echo " "; ?></small>
-      </div<
+          <div id="creator">
+            <p>Website by<br><a href="http://www.sarahpitts.com/">Sarah Pitts</a></p>
+          </div>
+			   <p>Stem To Stern Sailing &copy;<?php echo date("Y"); echo " "; ?></p>
+         <nav id="nav" role="navigation">
+            <?php wp_nav_menu( array('menu' => 'primary') ); ?> <a href="wp-login.php">Login</a>
+          </nav>
+          
+      </div>
 		</footer>
 
 	</div>

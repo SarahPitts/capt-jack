@@ -129,8 +129,9 @@
 	<div id="wrapper">
 
 		<header class="header" role="banner">
-			<div id="flower"><img src="<?php bloginfo('template_directory'); ?>/images/hibiscus.png" /></div>
+			
 			<div id="inner-header">
+				<div id="flower"><img src="<?php bloginfo('template_directory'); ?>/images/hibiscus.png" /></div>
 				<div id="logo"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo-main.jpg" /></a></div>
 				<div id="title"><img src="<?php bloginfo('template_directory'); ?>/images/title-main.png" /></div>
 			
