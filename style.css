@@ -5,11 +5,13 @@ body {
   -o-background-size: cover;
   background-size: cover;
   -webkit-font-smoothing: antialiased;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
 
 .header {
   background: url("images/background-1.png");
   background-repeat: repeat-x;
+  background-size: 100% 418px;
   height: 418px;
   width: 100%;
   z-index: 1; }
@@ -51,6 +53,7 @@ body {
   background: url("images/background-2.png");
   height: 239px;
   width: 100%;
+  background-size: auto 100%;
   background-repeat: repeat-x;
   margin-top: -15px;
   z-index: 50; }
