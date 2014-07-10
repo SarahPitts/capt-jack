@@ -2,6 +2,10 @@ $font-stack: Ubuntu;
 $black: #352022;
 $red: #d7141a;
 
+html {
+    overflow: auto;
+}
+
 
 
 body {
@@ -11,8 +15,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
   -webkit-font-smoothing: antialiased;
-  width: 100%;
-  overflow: hidden;
+   min-width: 1142px;
+   overflow: hidden;
 }
 
 .header {
