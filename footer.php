@@ -12,7 +12,7 @@
           </div>
 			   <p>Stem To Stern Sailing &copy;<?php echo date("Y"); echo " "; ?></p>
          <nav id="nav" role="navigation">
-            <?php wp_nav_menu( array('menu' => 'primary') ); ?> <a href="wp-login.php">Login</a>
+            <?php wp_nav_menu( array('menu' => 'primary') ); ?> <?php wp_loginout(); ?>
           </nav>
           
       </div>

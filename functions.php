@@ -147,4 +147,21 @@
 		);
 	}
 
+
+
+	add_filter('loginout','loginout_text_change');
+function loginout_text_change($text) {
+$login_text_before = 'Log in';
+$login_text_after = 'Login';
+
+$logout_text_before = 'Log out';
+$logout_text_after = 'Logout';
+
+$text = str_replace($login_text_before, $login_text_after ,$text);
+$text = str_replace($logout_text_before, $logout_text_after ,$text);
+return $text;
+}
+
 ?>
+
+
