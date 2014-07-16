@@ -17,9 +17,6 @@ Template Name: Custom
 
 			<div class="content">
 
-			<h1><?php the_title(); ?></h1>
-			<br>
-
 			<div class="entry">
 
 				<p><?php the_content(); ?></p>
